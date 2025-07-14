@@ -1,5 +1,54 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+#  Blog Summariser
+
+A full-stack web application built with **Next.js**, **TypeScript**, **Supabase**, and **MongoDB** that allows users to:
+
+-  Paste a blog URL
+-  Scrape and summarise the blog content
+-  Translate the summary into **Urdu**
+-  Save summaries to **Supabase** (structured data) and **MongoDB** (full content)
+-  View recent summaries
+
+---
+
+##  Features
+
+-  URL input to scrape blog text (via ScrapingBee API)
+-  English summary generation (static simulated logic)
+-  Urdu translation using phrase and word dictionaries
+-  Supabase used to store summaries (`summary_en`, `summary_ur`, `url`)
+-  MongoDB used to store full blog text
+-  Clean UI with **ShadCN** components and **Tailwind CSS**
+-  Display of recent 5 unique summaries from Supabase
+
+---
+
+##  Technologies Used
+
+- **Next.js 15 (App Router)**
+- **TypeScript**
+- **Tailwind CSS**
+- **ShadCN UI**
+- **Supabase**
+- **MongoDB (Atlas)**
+- **ScrapingBee API**
+
+---
+
+##  Setup Instructions
+
+1. **Clone this repo:**
+
+```bash
+git clone https://github.com/aimannaseem/assignement-20.git
+cd assignement-20
+
+
+
+
+
+
 ## Getting Started
 
 First, run the development server:
